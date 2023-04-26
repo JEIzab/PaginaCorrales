@@ -1,0 +1,135 @@
+
+/*Aqui editamos el cuerpo del codigo (el fondo de la pagina)*/
+body
+{
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: 300;
+	background: #f5c5c5;
+}
+
+header
+{
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.wrapper
+{
+	width: 90%;
+	max-width: 1920px;
+	overflow: hidden;
+}
+
+header .Logo
+{
+	line-height:1px; 
+	float: left;
+}
+
+header nav
+{
+	line-height:100px;
+	float: right;
+}
+
+header nav a
+{
+	display: inline-block;
+	background: rgb(123, 7, 7);
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 20px 20px;
+	line-height: normal;
+	border-radius: 8px;
+}
+
+header nav a:hover
+{
+	background: rgb(6, 6, 108);
+	color: white;
+	padding: 20px 20px;
+	border-radius: 8px;
+}
+
+h1
+{
+	font-family: sans-serif;
+	text-align: center;
+	padding: 10px;
+}
+
+p
+{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+/*Aqui editamos el Formulario completo, su tamaño, color, tipo de letra, etc.*/
+.Formulario
+{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	background: lightgray;
+	border-radius: 8px;
+}
+
+/*Aqui editamos la cabecera secundaria o el subtitulo*/
+h2
+{
+	background: darkred;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	font-weight: 100;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom: 5px solid darkred;
+}
+
+/*Diseño de los inputs, podemos ajustar las letras, el tamaño de dentro, etc.*/ 
+input
+{
+	margin-bottom: 15px;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 16px;
+	border-radius: 3px;
+}
+
+/*Aqui editamos el bloque que contiene a los inputs (Botones, Textbox, etc.)*/
+.contenedor-inputs
+{
+	padding: 10px 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.Input_100
+{
+	width: 97%;
+}
+
+/*Aqui editamos el boton que registrara la informacion*/
+.Boton_Registrar
+{
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 5px;
+	width: 50%;
+	font-family: sans-serif;
+	color: white; 	
+	background: darkred;
+	border-radius: 5px;
+}
+
+table {
+	margin: 0 auto;
+	background-color: white;
+  }
