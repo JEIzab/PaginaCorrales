@@ -15,7 +15,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     if (mysqli_num_rows($result) == 1) {
         // Usuario y contraseña son correctos
         $_SESSION['username'] = $username;
-        header('Location: FormulariosHTML/RegistroCrias.html');
+        header('Location: ProcesosPHP/RegistroCrias.html');
     } else {
         // Usuario y contraseña son incorrectos
         $error = "Usuario o contraseña incorrectos.";
